@@ -1,0 +1,83 @@
+
+.box {
+    min-height: 600px; 
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+.container {
+    padding: 20px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    color: #f1f1f1;
+    text-align: center;
+    background: #800000;
+    border: solid 1px #c3c3c3;
+}
+#panel {
+    padding: 50px;
+    display: none;
+    background: darkblue;
+}
+
+
+.menu {
+    border: 1px solid black;
+    padding-left: 20px;
+    text-align: center;
+}
+fieldset {
+    border: 0;
+}
+label {
+    display: block;
+    margin: 30px 0 0 0 ;
+}
+.overflow {
+    height: 200px;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.loader {
+    margin: auto;
+    border: 20px solid #c3c3c3;
+    border-radius: 50%;
+    border-top: 20px solid #FF7A59;
+    width: 300px;
+    height: 300px;
+    animation: spinner 4s linear infinite;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0dag);}
+    100% { transform: rotate(360deg);}
+}
+
+   
